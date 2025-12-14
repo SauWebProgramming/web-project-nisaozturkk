@@ -1,0 +1,184 @@
+[
+    {
+      "id": 1,
+      "title": "Stranger Things",
+      "category": "Korku", 
+      "year": 2016,
+      "season": "5 Sezon",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjRiMTA4NWUtNmE0ZC00NGM0LWJhMDUtZWIzMDM5ZDIzNTg3XkEyXkFqcGc@._V1_.jpg",
+      "rating": 8.6,
+      "description": "Ufak bir kasabada küçük bir çocuk kaybolunca, gizli deneyler, korkutucu doğaüstü güçler ve tuhaf bir küçük kızın da parçası olduğu bir gizem ortaya çıkar.",
+      "director": "The Duffer Brothers",
+      "cast": "Winona Ryder, David Harbour, Finn Wolfhard, Millie Bobby Brown"
+    },
+
+    {
+      "id": 2,
+      "title": "Anne with an E",
+      "category": "Dram",
+      "year": 2017,
+      "season": "3 Sezon",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWUzZGM1OTYtMWUyNS00NTBmLTg1YTMtOTllMWFmYjk2NGU2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "rating": 8.6,
+      "description": "Cesur ve tutkulu yetim kız, evlenmemiş yaşlı bir kadın ile onun tatlı dilli bekar erkek kardeşinin yanında alışılmadık bir yuva bulur. Yeşilin Kızı Anne'den uyarlandı.",
+      "director": "Moira Walley-Beckett",
+      "cast": "Amybeth McNulty, Geraldine James, R.H. Thomson"
+    },
+
+    {
+      "id": 3,
+      "title": "Friends",
+      "category": "Durum Komedisi",
+      "year": 1994,
+      "season": "10 Sezon",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "rating": 8.9,
+      "description": "Bu popüler sitcom 1990'ların Manhattanı'nda iş hayatının, aşkın ve gündelik yaşamın zorluklarıyla uğraşan 20'li yaşlardaki altı arkadaşın komik maceralarını anlatıyor.",
+      "director": "David Crane, Marta Kauffman",
+      "cast": "Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc"
+    },
+
+    {
+      "id": 4,
+      "title": "Squid Game",
+      "category": "Gerilim",
+      "year": 2021,
+      "season": "3 Sezon",
+      "poster": "https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSlCq3x0mzdgFd1PeYqPTxTE1awDh5jYeAayIIjvZjLBHy971DLaTHBAzWwuYygqn_xscoiBxMtf1LncymZJzkqhYw3M-GBNupEZ.jpg?r=90b",
+      "rating": 8.0,
+      "description": "Para sıkıntısı çeken yüzlerce oyuncu, çocuk oyunlarında yarışmaları için aldıkları tuhaf daveti kabul eder. İçeride onları cazip bir ödül ve ölüm riski beklemektedir.",
+      "director": "Hwang Dong-hyuk",
+      "cast": "Lee Jung-jae, Park Hae-soo, Wi Ha-joon, HoYeon Jung"
+    },
+
+    {
+      "id": 5,
+      "title": "The Summer I Turned Pretty",
+      "category": "Romantik",
+      "year": 2022,
+      "season": "3 Sezon",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/4a68ee50fe8a1fb1147ad9fca8d2c48e4c86c8243397c3d687e54a3e1bfcf322.png",
+      "rating": 7.3,
+      "description": "Belly Conklin 16 yaşına girmek üzere ve yazı ailesi ve Fisher'larla geçirmek için dünyadaki en sevdiği yer olan Cousins Beach'e gider. Belly son bir yılda çok büyümüştür ve bu yazın önceki tüm yazlardan farklı olacağını hisseder. Güzelleştiğim O Yaz, yaratıcı ve baş yapımcı olan Jenny Han'ın kitabına dayanmaktadır.",
+      "director": "Jenny Han",
+      "cast": "Lola Tung, Jackie Chung, Rachel Blanchard, Christopher Briney"
+    },
+
+    {
+      "id": 6,
+      "title": "Dark",
+      "category": "Bilim Kurgu",
+      "year": 2017,
+      "season": "3 Sezon",
+      "poster": "https://image.cnnturk.com/i/cnnturk/75/1200x675/601a5669214ed82080a32872.jpg",
+      "rating": 8.7,
+      "description": "Bir çocuğun kaybolması, dört aileyi hummalı bir cevap arayışına iter. Bu arayışları, üç nesli kapsayan akıl almaz bir gizemi ortaya çıkarmalarına neden olur.",
+      "director": "Baran bo Odar",
+      "cast": "Louis Hofmann, Karoline Eichhorn, Lisa Vicari, Maja Schöne"
+    },
+
+    {
+      "id": 7,
+      "title": "Enola Holmes",
+      "category": "Gizem/Macera",
+      "year": 2020,
+      "duration": "2 Saat 3 Dk",
+      "poster": "https://media.themoviedb.org/t/p/w500/9QfsXZTS7gDJwkSmmBPlml3P8ca.jpg",
+      "rating": 6.6,
+      "description": "Kayıp annesini arayan Enola Holmes adlı cesur genç kız, ağabeyi Sherlock'u kurnazlıkla alt etmek ve kaçak bir lorda yardım etmek için hafiyelik becerilerini kullanır.",
+      "director": " Harry Bradbeer",
+      "cast": " Millie Bobby Brown, Henry Cavill, David Thewlis"
+    },
+
+    {
+      "id": 8,
+      "title": "Flipped",
+      "category": "Komedi/Romantik",
+      "year": 2010,
+      "duration": "1 Saat 30 Dk",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/3/3a/Flipped_poster.jpg",
+      "rating": 7.7,
+      "description": "Juli, ikinci sınıfta Bryce ile tanıştığında bunun gerçek aşk olduğunu anlar. Altı yıl boyunca Bryce'ı da aynı şeye ikna etmeye çalıştıktan sonra, pes etmeye hazırdır; ta ki Bryce yeniden düşünmeye başlayana kadar.",
+      "director": " Rob Reiner",
+      "cast": " Madeline Carroll, Callan McAuliffe, Rebecca De Mornay"
+    },
+
+    {
+      "id": 9,
+      "title": "Harry Potter ve Azkaban Tutsağı",
+      "category": "Fantastik",
+      "year": 2004,
+      "duration": "2 Saat 22 Dk",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_.jpg",
+      "rating": 7.9,
+      "description": "Harry Potter, Ron ve Hermione, üçüncü eğitim yılları için Hogwarts Cadılık ve Büyücülük Okulu'na geri dönerler ve burada genç büyücü için tehlikeli bir tehdit oluşturan firari bir mahkumun etrafındaki gizemi araştırmaya başlarlar.",
+      "director":" Alfonso Cuarón",
+      "cast": " Daniel Radcliffe, Emma Watson, Rupert Grint"
+    },
+
+    {
+      "id": 10,
+      "title": "Cruella",
+      "category": "Komedi/Suç",
+      "year": 2021,
+      "duration": "2 Saat 14 Dk",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWY5MjljNjctZjhjZS00MWY0LTgwYzUtZTJiYTVmMmJkM2E0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "rating": 7.3,
+      "description": "1970'lerde Londra'da yaşanan punk rock devrimi sırasında, genç ve dolandırıcı Estella, kendini intikam peşinde koşan, gürültücü Cruella de Vil'e dönüştürür.",
+      "director": " Craig Gillespie",
+      "cast": " Emma Stone, Emma Thompson, Joel Fry "
+    },
+
+    {
+      "id": 11,
+      "title": "Zootropolis 2",
+      "category": "Komedi",
+      "year": 2025,
+      "duration": "1 Saat 50 Dk",
+      "poster": "https://tr.web.img4.acsta.net/img/9c/4c/9c4c3b82405644fec6135d2f8ecfc54a.jpg",
+      "rating": 7.7,
+      "description": "Cesur tavşan polis Judy Hopps ve tilki arkadaşı Nick Wilde, kariyerlerinin en tehlikeli ve karmaşık vakasını çözmek için tekrar bir araya geliyor.",
+      "director": " Jared Bush, Byron Howard",
+      "cast": " Ginnifer Goodwin, Jason Bateman, Ke Huy Quan"
+    },
+
+    {
+      "id": 12,
+      "title": "Joe Black",
+      "category": "Romantik/Fantastik",
+      "year": 1998,
+      "duration": "3 Saat 1 Dk",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p21971_p_v10_ah.jpg",
+      "rating": 7.2,
+      "description": "Ölüm, ilkeli bir dul adamla anlaşma yapar.",
+      "director": "Martin Brest",
+      "cast": " Brad Pitt, Anthony Hopkins, Claire Forlani"
+    },
+
+    {
+      "id": 13,
+      "title": "Titanic",
+      "category": "Romantik/Macera",
+      "year": 1997,
+      "duration": "3 Saat 14 Dk",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+      "rating": 7.9,
+      "description": "Batmaz denilen Titanic gemisinde yolları kesişen aristokrat bir kız ile fakir bir ressamın trajik aşk hikayesi.",
+      "director": "James Cameron",
+      "cast": "Leonardo DiCaprio, Kate Winslet, Billy Zane"
+    },
+
+    {
+      "id": 14,
+      "title": "Joker",
+      "category": "Gerilim/Suç",
+      "year": 2019,
+      "duration": "2 Saat 2 Dk",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "rating": 8.3,
+      "description": "Toplum tarafından dışlanan Arthur Fleck'in, yavaş yavaş deliliğe sürüklenerek suç dünyasının palyaçosu Joker'e dönüşmesi.",
+      "director": "Todd Phillips",
+      "cast": "Joaquin Phoenix, Robert De Niro, Zazie Beetz"
+    }
+  
+]

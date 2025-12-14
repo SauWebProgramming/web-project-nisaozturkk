@@ -1,0 +1,62 @@
+/* --- 1. GÜN: TEMEL AYARLAR --- */
+:root {
+    --bg-color: #0a0e17;
+    --card-bg: #151a27;
+    --text-color: #e0e6ed;
+    --accent-color: #00f2fe;
+    --gold-color: #ffd700;
+    --font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    background-image: radial-gradient(circle at top right, rgba(0, 242, 254, 0.08), transparent 50%);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center; /* Logoyu ortala */
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    color: var(--accent-color);
+    font-size: 2rem;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 40px 0;
+}
+
+/* Basit Kart Tasarımı (Hover efektleri henüz yok) */
+.movie-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.movie-card img { 
+    width: 100%; 
+    height: 220px; 
+    object-fit: cover; 
+    display: block; 
+}
+
+.card-info { 
+    padding: 15px; 
+}
