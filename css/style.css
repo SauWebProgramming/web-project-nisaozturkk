@@ -1,4 +1,3 @@
-/* --- 1. GÜN: TEMEL AYARLAR --- */
 :root {
     --bg-color: #0a0e17;
     --card-bg: #151a27;
@@ -25,7 +24,7 @@ body {
 
 .header-content {
     display: flex;
-    justify-content: center; /* Logoyu ortala */
+    justify-content: center;
     padding: 20px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -42,11 +41,12 @@ body {
     padding: 40px 0;
 }
 
-/* Basit Kart Tasarımı (Hover efektleri henüz yok) */
 .movie-card {
     background: var(--card-bg);
     border-radius: 12px;
     overflow: hidden;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -59,4 +59,17 @@ body {
 
 .card-info { 
     padding: 15px; 
+}
+
+.movie-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 242, 254, 0.2);
+    border-color: var(--accent-color);
+}
+
+.card-info h3 {
+    margin: 5px 0;
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis;
 }
