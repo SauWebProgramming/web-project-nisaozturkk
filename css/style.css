@@ -73,3 +73,26 @@ body {
     overflow: hidden;    
     text-overflow: ellipsis;
 }
+
+.search-container {
+    text-align: center;
+    margin: 30px 0; 
+}
+
+#searchInput {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    background-color: #222;
+    border: 2px solid #444;
+    border-radius: 50px;
+    color: white;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#searchInput:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.3);
+}
