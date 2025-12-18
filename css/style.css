@@ -270,3 +270,54 @@ body {
         font-size: 1.5rem;
     }
 }
+.modal-meta-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.category-badge {
+    background-color: var(--accent-color);
+    color: #000;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.duration-info {
+    color: #ccc;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+/* --- KATEGORİ FİLTRESİ STİLİ (GÜNCEL) --- */
+#categoryFilter {
+    padding: 15px 20px;
+    font-size: 1rem;
+    background-color: #222;
+    border: 2px solid #444;
+    border-radius: 50px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* Mobilde input ile uyumlu olsun diye */
+    min-width: 160px;
+    margin-right: 10px; /* Input ile arasına boşluk */
+}
+
+#categoryFilter:hover, #categoryFilter:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.2);
+}
+
+#categoryFilter option {
+    background-color: #222;
+    color: white;
+}

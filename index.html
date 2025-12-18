@@ -19,9 +19,24 @@
 
     <main class="container">
         <div class="search-container">
+            <select id="categoryFilter">
+                <option value="all">Tüm Kategoriler</option>
+                <option value="Bilim Kurgu">Bilim Kurgu</option>
+                <option value="Fantastik">Fantastik</option>
+                <option value="Korku">Korku</option>
+                <option value="Dram">Dram</option>
+                <option value="Gerilim">Gerilim</option>
+                <option value="Romantik">Romantik</option>
+                <option value="Durum Komedisi">Durum Komedisi</option>
+                <option value="Gizem">Gizem</option>
+                <option value="Macera">Macera</option>
+                <option value="Komedi">Komedi</option>
+                <option value="Suç">Suç</option>
+            </select>
+
             <input type="text" id="searchInput" placeholder="Film veya dizi adı yazın...">
             <button id="favoritesBtn" class="filter-btn">Favorilerim ❤️</button>
-        </div>  
+        </div>
         <section id="movieList" class="movie-grid">
             <p style="text-align:center; width:100%; color: #ccc;">Veriler hazırlanıyor...</p>
         </section>

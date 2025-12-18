@@ -21,4 +21,4 @@ Bu proje, Web Tasarımı ve Programlama dersi için geliştirilmiş interaktif b
 ## Canlı Önizleme (Live Demo)
 
 Projenin canlı haline Repository'nin "About" kısmındaki linkten veya aşağıdan ulaşabilirsiniz:
-[GitHub Pages Linki Buraya Gelecek]
+https://sauwebprogramming.github.io/web-project-nisaozturkk/
