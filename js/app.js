@@ -1,5 +1,3 @@
-// 10. GÜN: JSON VERİSİNE TAM UYUMLU FINAL SÜRÜM
-
 const movieListSection = document.getElementById('movieList');
 const searchInput = document.getElementById('searchInput');
 const favoritesBtn = document.getElementById('favoritesBtn');
@@ -13,7 +11,6 @@ let allMovies = [];
 let favorites = JSON.parse(localStorage.getItem('myFavorites')) || [];
 let isShowingFavorites = false; 
 
-// Verileri Çek
 async function fetchMovies() {
     try {
         const response = await fetch('./data/movies.json');
@@ -26,7 +23,6 @@ async function fetchMovies() {
     }
 }
 
-// Filtreleme
 categoryFilter.addEventListener('change', (e) => {
     const selectedCategory = e.target.value;
     if (isShowingFavorites) {
@@ -47,7 +43,6 @@ categoryFilter.addEventListener('change', (e) => {
     }
 });
 
-// Listeleme
 function displayMovies(movies) {
     movieListSection.innerHTML = '';
     if (movies.length === 0) {
@@ -77,20 +72,16 @@ function displayMovies(movies) {
     });
 }
 
-// --- MODAL (SORUN ÇÖZÜLDÜ) ---
 function openModal(movie) {
     const director = movie.director || 'Belirtilmemiş';
     const cast = movie.cast || 'Belirtilmemiş';
     const category = movie.category || 'Genel';
     
-    // BURASI DÜZELTİLDİ: Senin JSON yapına göre (season ve duration)
     let timeInfo = '';
     
-    // JSON'da "season": "3 Sezon" yazıyor, direkt onu alıyoruz.
     if (movie.season) {
         timeInfo = `📺 ${movie.season}`; 
     } 
-    // JSON'da "duration": "2 Saat 3 Dk" yazıyor, direkt onu alıyoruz.
     else if (movie.duration) {
         timeInfo = `⏱️ ${movie.duration}`; 
     }
@@ -129,7 +120,6 @@ function openModal(movie) {
     modal.classList.add('active');
 }
 
-// Favori İşlemleri
 function toggleFavorite(title) {
     if (favorites.includes(title)) {
         favorites = favorites.filter(fav => fav !== title);
@@ -141,7 +131,6 @@ function toggleFavorite(title) {
     if (isShowingFavorites) {
         showOnlyFavorites();
     } else {
-        // Görünümü yenile
         const searchTerm = searchInput.value.toLowerCase();
         const selectedCat = categoryFilter.value;
         let listToFilter = allMovies;

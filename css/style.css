@@ -296,7 +296,6 @@ body {
     align-items: center;
     gap: 5px;
 }
-/* --- KATEGORİ FİLTRESİ STİLİ (GÜNCEL) --- */
 #categoryFilter {
     padding: 15px 20px;
     font-size: 1rem;
@@ -307,10 +306,8 @@ body {
     outline: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    /* Mobilde input ile uyumlu olsun diye */
     min-width: 160px;
-    margin-right: 10px; /* Input ile arasına boşluk */
-}
+    margin-right: 10px; 
 
 #categoryFilter:hover, #categoryFilter:focus {
     border-color: var(--accent-color);
@@ -320,4 +317,5 @@ body {
 #categoryFilter option {
     background-color: #222;
     color: white;
+}
 }
